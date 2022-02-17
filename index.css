@@ -1,5 +1,5 @@
 h1 {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: 500px;
     color: #f2f2f2;
 }
@@ -63,34 +63,41 @@ p {
     background: #262626;
 }
 .container-lg {
-    padding-top: 60px;
     margin-top: 60px;
     background-color: #181818;
     outline-style: solid;
     outline-width: 3px;
     outline-color: #939393;
 }
-.summary {
-    margin-top: 60px;
+#summary {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
+    padding-top: 60px;
     max-width: 960px;
 }
-.container {
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-#designNotes {
-    margin-left: auto;
-    margin-right: auto;
+#summary .row {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
-.container-md {
+#summary img {
+    min-width: 320px;
+}
+#designNotes {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    margin-top: 30px;
+}
+#problem {
     margin-top: 30px;
     max-width: 720px;
+}
+#solution {
+    margin-top: 30px;
+    max-width: 720px;
+    
 }
 #solution h2 {
     text-align: right;
@@ -106,4 +113,28 @@ hr {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+  }
+#userResearch {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+  }
+#userResearch img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+#survey1 {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+  #survey2 {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
